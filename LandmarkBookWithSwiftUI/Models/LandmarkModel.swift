@@ -25,7 +25,7 @@ struct Coordinates {
 }
 
 
-let eiffelLandmark = LandmarkModel(id: 0, name: "Eiffel", imageName: "eiffel", country: "France", category: "Tower", coordinates: Coordinates(lat: 48.858093, long: 2.294694))
+let eiffelLandmark = LandmarkModel(id: 0, name: "Eifel", imageName: "eifel", country: "France", category: "Tower", coordinates: Coordinates(lat: 48.858093, long: 2.294694))
 
 let pissaandmark = LandmarkModel(id: 1, name: "Pissa", imageName: "pissa", country: "Italy", category: "Tower", coordinates: Coordinates(lat: 43.7230, long: 10.3966))
 
