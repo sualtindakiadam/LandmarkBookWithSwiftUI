@@ -14,6 +14,7 @@
 		957441C526E8B186004AEE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957441C426E8B186004AEE46 /* Preview Assets.xcassets */; };
 		957441C826E8B186004AEE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957441C626E8B186004AEE46 /* LaunchScreen.storyboard */; };
 		957441D226E8B1DA004AEE46 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957441D126E8B1DA004AEE46 /* MapView.swift */; };
+		957441D426E8B2E0004AEE46 /* LandmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957441D326E8B2E0004AEE46 /* LandmarkModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		957441C726E8B186004AEE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957441C926E8B186004AEE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957441D126E8B1DA004AEE46 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		957441D326E8B2E0004AEE46 /* LandmarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		957441CF26E8B19A004AEE46 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				957441D326E8B2E0004AEE46 /* LandmarkModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				957441BC26E8B185004AEE46 /* AppDelegate.swift in Sources */,
+				957441D426E8B2E0004AEE46 /* LandmarkModel.swift in Sources */,
 				957441D226E8B1DA004AEE46 /* MapView.swift in Sources */,
 				957441BE26E8B185004AEE46 /* SceneDelegate.swift in Sources */,
 				957441C026E8B185004AEE46 /* DetailsView.swift in Sources */,
